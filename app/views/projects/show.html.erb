@@ -1,0 +1,1 @@
+<h2><% title(@project.name, "Projects") %></h2><title>	<% if content_for?(:title) %>	<%= yield(:title) %>	<% else %>	Ticketee	<% end %></title>	<%= link_to "Edit Project", edit_project_path(@project) %>
