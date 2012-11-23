@@ -38,10 +38,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :test do
+
+#group :test do
 # Pretty printed test output
-  gem 'turn', :require => false
-end
+#gem 'turn', :require => false
+#end
+
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
